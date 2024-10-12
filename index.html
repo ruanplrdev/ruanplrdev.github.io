@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<meta http-equiv="refresh" content="0;url=pages/index.html">
-<title>SB Admin 2</title>
-<script language="javascript">
-    window.location.href = "pages/index.html"
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-Go to <a href="pages/index.html">/pages/index.html</a>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transformando Ideias em Experiências Inovadoras</h1>
+            <p>Desenvolvedor Full Stack especializado em soluções web e mobile.</p>
+            <a href="#projetos" class="cta-btn">Ver Projetos</a>
+        </div>
+      
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="sobre">
+        <div class="content-container">
+            <div class="text">
+                <h2>Sobre Mim</h2>
+                <p>Com anos de experiência em desenvolvimento web e mobile, busco criar interfaces simples e intuitivas, focando sempre na experiência do usuário e nas melhores práticas do setor. Trabalhei com tecnologias modernas como React, Angular, Node.js e Flutter, entregando projetos de alta qualidade.</p>
+            </div>
+            <div class="image">
+                <img src="profile-picture.jpeg" alt="Desenvolvedor Full Stack">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos">
+        <h2>Projetos Recentes</h2>
+        <div class="projetos-container">
+    
+            <div class="projeto">
+                <img src="bettha.jpeg" alt="Projeto 2">
+                <h3>Bettha.com</h3>
+                <p>Site responsivo com React e Next para uma plataforma de buscador de vagas online.</p>
+                <a href="https://www.bettha.com/" class="cta-btn-light">Ver Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form action="#">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="cta-btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Desenvolvedor Full Stack</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ruan-pissinati-de-lyra-revoredo-21546a195/">LinkedIn</a>
+            <a href="https://github.com/ruanplrdev/ruanplrdev.github.io">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
+ 
