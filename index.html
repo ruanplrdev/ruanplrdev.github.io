@@ -223,6 +223,18 @@
 
     gtag('config', 'G-Q33HLZSQ8P');
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector(".main-button").forEach(item => {
+            item.addEventListener("click", function() {
+                gtag('event', 'click', {
+                    'event_category': 'Botão',
+                    'event_label': "Botão Saiba mais (Main)"
+                });
+            });
+        });
+    });
+  </script>
 </body>
 
 </html>
