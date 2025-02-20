@@ -1,0 +1,427 @@
+@import url('./fonts/poppins.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0
+}
+
+img {
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.screen {
+    max-width: 430px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+section.main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------------ */
+
+section.main>header.top-bar {
+    display: flex;
+    background-color: red;
+    height: 55px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.main>header.top-bar>p {
+    color: white;
+    font-size: 1em;
+}
+
+
+/* ------------------------------------------ */
+
+section.main>img.logo {
+    display: flex;
+    justify-content: center;
+    max-width: 220px;
+    margin: 2% 0;
+    padding-left: 20px;
+}
+
+section.main>h1.title {
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+section.main>h2.title {
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 60px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+section.main>img.main-img {
+    /* width: 100%; */
+    padding: 0 15px;
+}
+
+section.main>button.main-button {
+    background: rgb(193, 0, 0);
+    background: linear-gradient(0deg, rgba(193, 0, 0, 1) 0%, rgba(210, 0, 0, 1) 100%, rgba(255, 0, 0, 1) 100%);
+    color: white;
+    height: 60px;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+section.main>button.main-button:hover {
+    background-color: rgb(183, 0, 0);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+section.explanation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.explanation {
+    max-width: 430px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+div.text-expanation {
+    background-color: red;
+    max-width: 500px;
+    /* height: 500px; */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+div.text-expanation>h2.title {
+    color: white;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+div.text-expanation>p.text {
+    color: white;
+    font-size: 1.33em;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+div.text-expanation>button.action {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    color: black;
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 15px 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+section.rodmap {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+section.rodmap>h2.title {
+    font-size: 2.5em;
+    line-height: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-rodmap {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-rodmap>h2.title {
+    font-size: 2.5em;
+    line-height: 1.2;
+    color: #f9f9f9;
+}
+
+.card-rodmap>h3.title {
+    font-size: 1.5em;
+    line-height: 1.2;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.card-rodmap>p.text {
+    font-size: 1.3em;
+    line-height: 1.2;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.card-rodmap:last-child {
+    background-color: black;
+}
+
+.card-rodmap>button.action {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    color: black;
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 15px 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+section.case {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+section.case>h2.title {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+section.case>h3.title {
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.img-case {}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+}
+
+.feature-item>div {
+    display: flex;
+    border: 1px solid #a9a9a9;
+    padding: 30px;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.feature-item>div>span {
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: -0.7em;
+    text-align: center;
+    width: auto;
+    left: 23%;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.feature-item>div>p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+section.case>button.action {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(245, 245, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    color: black;
+    width: 90%;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 15px 0;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid #a9a9a9;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+section.tecnical {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+section.tecnical h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+section.tecnical p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+section.contact {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+section.contact>h2.title {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section.contact>p.text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.card-contact {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card-contact h3 {
+    color: white;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 10px
+}
+
+.card-contact p.phone {
+    font-size: 2em;
+}
+
+.card-contact p.mail {
+    font-size: 1em;
+}
+
+.card-contact p {
+    color: white;
+}
+
+.card-contact img {
+    max-width: 75px;
+    margin-bottom: 10px
+}
+
+.card-contact:last-child {
+    background-color: green;
+}
+
+.card-contact:last-child button {
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 0;
+    font-size: 1.3em;
+    background: transparent;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.card-contact:last-child button:hover {
+    background-color: white;
+    color: green;
+    transition: 0.2s;
+
+}
+
+/* -------------------------------------------------------------------------------- */
+footer.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+footer.footer img{
+    max-width: 220px;
+    height: auto;
+    margin: 50px 0 20px 0;
+}
+footer.footer p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+footer.footer{
+}
+footer.footer{
+}
+
+/* -------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1280px) {
+    header.top-bar>p {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .screen {
+        max-width: 1280px;
+    }
+
+    section.explanation {
+        flex-direction: row;
+    }
+
+    img.explanation {
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+}

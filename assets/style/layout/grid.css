@@ -1,0 +1,27 @@
+
+.header,
+.section,
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.w-full{
+    width: 100%;
+}
+
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
