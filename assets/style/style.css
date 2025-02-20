@@ -67,17 +67,17 @@ section.main>img.logo {
 section.main>h1.title {
     font-size: 3em;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 section.main>h2.title {
     font-size: 2em;
     line-height: 1.2;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0 20px;
 
 }
 
@@ -91,7 +91,7 @@ section.main>button.main-button {
     background: linear-gradient(0deg, rgba(193, 0, 0, 1) 0%, rgba(210, 0, 0, 1) 100%, rgba(255, 0, 0, 1) 100%);
     color: white;
     height: 60px;
-    width: 60%;
+    width: 90%;
     margin: 20px auto;
     font-size: 1.3em;
     border-radius: 5px;
@@ -289,7 +289,7 @@ section.tecnical {
     background-color: #f9f9f9;
     padding: 20px;
     width: 100%;
-    
+
 }
 
 section.tecnical h2 {
@@ -297,6 +297,12 @@ section.tecnical h2 {
     line-height: 1.2;
     margin-bottom: 20px;
     margin-top: 30px;
+}
+
+section.tecnical p:first-of-type {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 section.tecnical p {
@@ -384,26 +390,28 @@ section.contact>p.text {
 }
 
 /* -------------------------------------------------------------------------------- */
-footer.footer{
+footer.footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 0 20px;
     background-color: #f9f9f9;
 }
-footer.footer img{
+
+footer.footer img {
     max-width: 220px;
     height: auto;
     margin: 50px 0 20px 0;
 }
-footer.footer p{
+
+footer.footer p {
     font-size: 1.3em;
     margin-bottom: 20px;
 }
-footer.footer{
-}
-footer.footer{
-}
+
+footer.footer {}
+
+footer.footer {}
 
 /* -------------------------------------------------------------------------------- */
 @media only screen and (min-width: 1280px) {
