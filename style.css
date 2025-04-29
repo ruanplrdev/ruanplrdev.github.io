@@ -1,0 +1,213 @@
+/* Fontes e reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #1d1d1f;
+    background-color: #f5f5f7;
+    line-height: 1.6;
+    padding-top: 60px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbar ul li {
+    margin: 0 20px;
+}
+.navbar ul li a {
+    color: #1d1d1f;
+    font-weight: 400;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.navbar ul li a:hover {
+    color: #0071e3;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    height: 100vh;
+    background-color: #f5f5f7;
+}
+.hero-content {
+    max-width: 500px;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1d1d1f;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #6e6e73;
+}
+.cta-btn {
+    background-color: #0071e3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.cta-btn:hover {
+    background-color: #005bb5;
+}
+
+/* Hero Image */
+.hero-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Sobre */
+.sobre {
+    padding: 80px 20px;
+    background-color: white;
+}
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text {
+    max-width: 500px;
+}
+.text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1d1d1f;
+}
+.text p {
+    font-size: 1.2rem;
+    color: #6e6e73;
+}
+.image img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Projetos */
+.projetos {
+    padding: 80px 20px;
+    background-color: #f5f5f7;
+}
+.projetos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1d1d1f;
+}
+.projetos-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.projeto {
+    text-align: center;
+    max-width: 45%;
+}
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+.projeto p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #6e6e73;
+}
+.cta-btn-light {
+    background-color: white;
+    color: #0071e3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #0071e3;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cta-btn-light:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+/* Contato */
+.contato {
+    padding: 80px 20px;
+    background-color: white;
+    text-align: center;
+}
+.contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1d1d1f;
+}
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contato button {
+    background-color: #0071e3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+.contato button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
